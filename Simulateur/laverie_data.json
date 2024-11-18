@@ -1,0 +1,101 @@
+{
+  "Proprietaires": [
+    {
+      "_CIN": 12345678,
+      "_Surname": "Dupont",
+      "propLaverie": [
+        {
+          "IdLaverie": 1,
+          "CapaciteLaverie": "Grande",
+          "AddresseLaverie": "123 Rue de la Paix",
+          "machinesLaverie": [
+            {
+              "IdMachine": 101,
+              "MarqueMachine": "LG",
+              "EtatMachine": "En service",
+              "cyclesMachine": [
+                {
+                  "IdCycle": 1,
+                  "NomCycle": "Lavage Rapide",
+                  "DureeCycleHR": 1,
+                  "coutCycle": 5.00
+                },
+                {
+                  "IdCycle": 2,
+                  "NomCycle": "Lavage Intensif",
+                  "DureeCycleHR": 2,
+                  "coutCycle": 8.50
+                }
+              ]
+            },
+            {
+              "IdMachine": 102,
+              "MarqueMachine": "Samsung",
+              "EtatMachine": "En panne",
+              "cyclesMachine": [
+                {
+                  "IdCycle": 1,
+                  "NomCycle": "Lavage Économique",
+                  "DureeCycleHR": 1,
+                  "coutCycle": 4.00
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "IdLaverie": 2,
+          "CapaciteLaverie": "Moyenne",
+          "AddresseLaverie": "456 Avenue de France",
+          "machinesLaverie": [
+            {
+              "IdMachine": 201,
+              "MarqueMachine": "Whirlpool",
+              "EtatMachine": "En service",
+              "cyclesMachine": [
+                {
+                  "IdCycle": 1,
+                  "NomCycle": "Lavage Rapide",
+                  "DureeCycleHR": 1,
+                  "coutCycle": 6.00
+                },
+                {
+                  "IdCycle": 2,
+                  "NomCycle": "Lavage Intensif",
+                  "DureeCycleHR": 2,
+                  "coutCycle": 10.00
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_CIN": 87654321,
+      "_Surname": "Martin",
+      "propLaverie": [
+        {
+          "IdLaverie": 3,
+          "CapaciteLaverie": "Petite",
+          "AddresseLaverie": "789 Boulevard des Champs",
+          "machinesLaverie": [
+            {
+              "IdMachine": 301,
+              "MarqueMachine": "Bosch",
+              "EtatMachine": "En service",
+              "cyclesMachine": [
+                {
+                  "IdCycle": 1,
+                  "NomCycle": "Lavage Standard",
+                  "DureeCycleHR": 1,
+                  "coutCycle": 4.50
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
